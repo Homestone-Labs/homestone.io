@@ -17,52 +17,41 @@ export default function Home() {
             Every property deserves a permanent record.
           </h1>
           <p className="mt-6 text-lg sm:text-xl text-gray-light max-w-2xl leading-relaxed">
-            Homestone builds the data infrastructure for real estate investors,
-            flippers, and contractors. Starting with FlipWalk.
+            Homestone Labs builds software for real estate investors, flippers,
+            and contractors — tools that bring accountability and structure
+            to every project.
           </p>
-          <a
-            href="mailto:chris@homestone.io?subject=Waitlist%20-%20Homestone"
-            className="inline-block mt-10 px-8 py-4 bg-orange text-white font-semibold rounded-lg hover:bg-orange-dark transition-colors text-lg"
-          >
-            Join the Waitlist
-          </a>
         </div>
       </section>
 
-      {/* FlipWalk */}
+      {/* What We Do */}
       <section className="bg-dark-card border-t border-dark-border">
         <div className="max-w-5xl mx-auto px-6 py-20 sm:py-28">
           <p className="text-orange font-mono text-sm tracking-wider uppercase mb-4">
-            Product
+            What We Do
           </p>
-          <h2 className="text-3xl sm:text-5xl font-bold text-white leading-tight">
-            FlipWalk — Walk it. Film it.
-            <br />
-            Get your SOW.
+          <h2 className="text-3xl sm:text-5xl font-bold text-white leading-tight max-w-3xl">
+            Software that works as hard as you do.
           </h2>
           <p className="mt-6 text-lg text-gray-light max-w-2xl leading-relaxed">
-            Point your phone at a property, walk through it, and FlipWalk
-            generates a professional scope of work in minutes — not hours.
-            AI-powered, contractor-ready, zero guesswork.
+            We&apos;re building the next generation of tools for property
+            professionals — from AI-powered walkthroughs to material
+            procurement to ongoing maintenance. Real tools for real work.
           </p>
 
-          <div className="grid sm:grid-cols-2 gap-6 mt-12">
+          <div className="grid sm:grid-cols-3 gap-6 mt-12">
             {[
               {
-                title: "Voice-guided walkthrough capture",
-                desc: "Just talk and walk. FlipWalk guides you room by room.",
+                title: "AI-Powered",
+                desc: "We use AI where it actually matters — to save you hours of tedious documentation and estimation work.",
               },
               {
-                title: "AI-generated scope of work",
-                desc: "A full SOW, auto-generated from your walkthrough footage and narration.",
+                title: "Contractor-Ready",
+                desc: "Everything we build outputs professional, structured documents your crew and subs can actually use.",
               },
               {
-                title: "Contractor-ready PDF export",
-                desc: "Hand it to your crew. Clear, professional, ready to bid.",
-              },
-              {
-                title: "Review Mode — accountability, not estimation",
-                desc: "Compare actuals to scope. Track what changed and why.",
+                title: "Accountability First",
+                desc: "Our tools don't just estimate — they track, compare, and keep every project honest from start to finish.",
               },
             ].map((feature) => (
               <div
@@ -78,70 +67,6 @@ export default function Home() {
               </div>
             ))}
           </div>
-
-          <div className="mt-10 inline-flex items-center gap-2 rounded-full border border-dark-border px-5 py-2 text-sm text-gray-light">
-            <span className="w-2 h-2 rounded-full bg-orange animate-pulse" />
-            Coming Soon to iOS
-          </div>
-        </div>
-      </section>
-
-      {/* Product Suite */}
-      <section>
-        <div className="max-w-5xl mx-auto px-6 py-20 sm:py-28">
-          <p className="text-orange font-mono text-sm tracking-wider uppercase mb-4">
-            Roadmap
-          </p>
-          <h2 className="text-3xl sm:text-4xl font-bold text-white">
-            The Homestone Suite
-          </h2>
-          <p className="mt-4 text-gray-light max-w-xl">
-            A connected toolkit for every stage of a property flip.
-          </p>
-
-          <div className="grid sm:grid-cols-3 gap-6 mt-12">
-            {[
-              {
-                name: "FlipWalk",
-                desc: "AI property walkthrough → scope of work",
-                status: "Building now",
-                active: true,
-              },
-              {
-                name: "FlipShop",
-                desc: "SOW → shopping carts at Home Depot, Lowe's, Amazon",
-                status: "Coming soon",
-                active: false,
-              },
-              {
-                name: "FlipGuard",
-                desc: "AI landlord maintenance portal",
-                status: "Coming soon",
-                active: false,
-              },
-            ].map((product) => (
-              <div
-                key={product.name}
-                className={`rounded-xl p-6 border ${
-                  product.active
-                    ? "border-orange/40 bg-orange/5"
-                    : "border-dark-border bg-dark-card"
-                }`}
-              >
-                <h3 className="text-white font-bold text-lg">{product.name}</h3>
-                <p className="mt-2 text-gray-light text-sm leading-relaxed">
-                  {product.desc}
-                </p>
-                <p
-                  className={`mt-4 text-xs font-mono uppercase tracking-wider ${
-                    product.active ? "text-orange" : "text-gray-light/60"
-                  }`}
-                >
-                  {product.status}
-                </p>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
@@ -152,12 +77,6 @@ export default function Home() {
             <span>&copy; 2026 Homestone Labs LLC</span>
             <span>Built in Ohio 🏠</span>
           </div>
-          <a
-            href="mailto:chris@homestone.io"
-            className="text-orange hover:text-orange-dark transition-colors"
-          >
-            chris@homestone.io
-          </a>
         </div>
       </footer>
     </main>

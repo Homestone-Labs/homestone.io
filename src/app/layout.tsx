@@ -13,13 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Homestone Labs — The permanent data spine for every property in America.",
+  title: "Homestone Labs — Software for real estate investors and contractors.",
   description:
-    "Homestone builds the data infrastructure for real estate investors, flippers, and contractors. Starting with FlipWalk — AI-powered property walkthroughs that generate professional scopes of work.",
+    "Homestone Labs builds software that brings accountability and structure to every property project. Tools for real estate investors, flippers, and contractors.",
   openGraph: {
     title: "Homestone Labs",
     description:
-      "The permanent data spine for every property in America. AI-powered tools for real estate investors and contractors.",
+      "Software for real estate investors, flippers, and contractors. Built in Ohio.",
     url: "https://homestone.io",
     siteName: "Homestone Labs",
     type: "website",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Homestone Labs",
     description:
-      "The permanent data spine for every property in America. AI-powered tools for real estate investors and contractors.",
+      "Software for real estate investors, flippers, and contractors. Built in Ohio.",
   },
   icons: {
     icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>",
